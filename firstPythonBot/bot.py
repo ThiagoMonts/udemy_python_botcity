@@ -47,7 +47,7 @@ def main():
     bot.headless = False
 
     # Uncomment to change the default Browser to Firefox
-    # bot.browser = Browser.FIREFOX
+    bot.browser = Browser.CHROME
 
     # Uncomment to set the WebDriver path
     # bot.driver_path = "<path to your WebDriver binary>"
